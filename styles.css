@@ -1,1 +1,70 @@
-
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+.hero-text {
+  background-image: url("https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.heroimg {
+  width: 100%;
+  height: 100vh;
+  display: none;
+}
+.hero-text {
+  text-align: center;
+  padding-top: 7%;
+  font-weight: 400;
+  line-break: initial;
+}
+.hero .hi {
+  font-size: 35px;
+}
+.black-container {
+  background-color: #000;
+  padding: 20px;
+  margin-top: 29px;
+  color: white;
+}
+.black-box {
+  font-size: 70px;
+  font-weight: 400;
+  text-align: center;
+}
+.black-box span {
+  font-size: 96px;
+}
+.card-container .card {
+  height: 350px;
+  max-width: 280px;
+  text-align: center;
+}
+.card-container .cardimg {
+  width: 278px;
+  height: 200px;
+}
+.card-container .card-content {
+  width: 250px;
+  padding-left: 30px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card-container .card {
+  border: 1px solid grey;
+  border-radius: 5px;
+  text-align: center;
+}
+.card-container .card-content p {
+  padding-top: 10px;
+}
+.card-container .card-content h3 {
+  padding-top: 5px;
+  padding-right: 80px;
+}
+.card-container {
+  display: flex;
+}
